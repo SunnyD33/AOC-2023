@@ -2,7 +2,7 @@
 import * as fs from "fs";
 
 // Parse data
-const data = fs.readFileSync("./input.txt", "utf-8");
+const data = fs.readFileSync("../input.txt", "utf-8");
 const dataByLine = data.split("\n");
 //console.log(dataByLine);
 

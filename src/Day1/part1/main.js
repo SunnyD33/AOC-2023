@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //Check that tsc file has been created and that types/node is installed
 var fs = require("fs");
 // Parse data
-var data = fs.readFileSync("./input.txt", "utf-8");
+var data = fs.readFileSync("../input.txt", "utf-8");
 var dataByLine = data.split("\n");
 //console.log(dataByLine);
 // Solve puzzle from parsed data
